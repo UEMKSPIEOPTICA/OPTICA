@@ -743,7 +743,7 @@ footer ul li a:hover {
 #preloader {
     transition-duration: 0.5s;
     z-index: 99999;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #preloader {
@@ -786,7 +786,7 @@ footer ul li a:hover {
     width: 100%;
     text-align: center;
     font-size: clamp(3rem, 3.5vw, 9rem);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     letter-spacing: 40px;
     transition-duration: 0.7s;
@@ -822,8 +822,8 @@ footer ul li a:hover {
     justify-content: center;
     position: relative;
     height: 100%;
-    top: -80px;
-    font-family: 'Poppins', sans-serif !important;
+    top: -10px;
+    font-family: 'Poppins', sans-serif, sans-serif !important;
     font-style: normal;
     font-weight: 600;
     font-size: 350px;
@@ -841,7 +841,7 @@ footer ul li a:hover {
     left: 18.13%;
     right: 18.13%;
     top: 25.68%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
@@ -857,7 +857,7 @@ footer ul li a:hover {
     left: 25.07%;
     right: 25.01%;
     top: 67.8%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
@@ -880,7 +880,7 @@ footer ul li a:hover {
     padding: 7px 20px;
     border-radius: 6px;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -965,7 +965,6 @@ footer ul li a:hover {
         position: relative;
         height: 100%;
         top: -130px;
-        font-family: 'Poppins', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 120px;
@@ -985,7 +984,7 @@ footer ul li a:hover {
         top: 20.68%;
         width: 350px;
         /* Adjust the width to fit the content */
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 22px;
@@ -1002,7 +1001,7 @@ footer ul li a:hover {
         left: 4%;
         width: 350px;
         /* Adjust the width to fit the content */
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
