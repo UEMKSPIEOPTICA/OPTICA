@@ -87,6 +87,7 @@
 .team_member_image img {
     border-radius: 10px;
     transition: var(--transition);
+    height: 235px;
 }
 
 .team_member:hover .team_member_image {
@@ -155,6 +156,10 @@
     .team_member {
         padding: 1rem;
     }
+    
+.team_member_image img {
+   height: 235px;
+}
 }
 
 /*============================= MEDIA QUERIES (MOBILE) SECTION =================================*/
@@ -180,4 +185,8 @@
     .team_member p {
         margin-bottom: 1.5rem;
     }
+       
+.team_member_image img {
+    height: auto;
+ }
 }
