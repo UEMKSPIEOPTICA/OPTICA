@@ -785,7 +785,7 @@ footer ul li a:hover {
     width: 100%;
     text-align: center;
     font-size: clamp(3rem, 3.5vw, 9rem);
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     letter-spacing: 40px;
     transition-duration: 0.7s;
