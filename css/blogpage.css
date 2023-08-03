@@ -47,7 +47,10 @@ a{
 .home{
     width: 100%;
     min-height: 440px;
-    background: url("https://uemmun.in/assets/heroImg.webp");
+    background:  linear-gradient(to bottom, rgba(177, 186, 235, 0.22), rgba(42, 10, 118, 0.5)),
+    url("../images/hero-img1.jpg");
+   background-size: cover;
+   background-position: center;
     background-position: bottom;
     object-fit:fill;
     display: grid;

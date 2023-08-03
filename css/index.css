@@ -7,9 +7,10 @@
     outline: none;
     text-decoration: none;
     list-style: none;
-    
+
 }
-.loader{
+
+.loader {
     display: none;
 }
 
@@ -25,7 +26,7 @@
 
 ::-webkit-scrollbar-thumb {
     background: var(--color-bg2);
-   border-radius: 5px;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -216,13 +217,14 @@ nav button {
     font-size: 2.3rem;
 }
 
-.logo span{
+.logo span {
     color: var(--color-danger);
 }
-.logo small{
+
+.logo small {
     font-size: 1.7rem;
 }
-   
+
 
 
 /*============================= HEADER SECTION =================================*/
@@ -234,7 +236,11 @@ header {
     overflow: hidden;
     height: 100vh;
     margin-bottom: 5rem;
-    background: url('https://uemmun.in/assets/heroImg.webp')  center no-repeat;
+    background:
+    linear-gradient(to bottom, rgba(177, 186, 235, 0.22), rgba(11, 1, 36, 0.65)),
+     url("../images/hero-img2.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .header_container {
@@ -249,10 +255,12 @@ header {
 .header_left p {
     margin: 1rem 0 2.4rem;
 }
-.header_left h1{
+
+.header_left h1 {
     margin-bottom: 20px;
 }
-.header_left .title{
+
+.header_left .title {
     color: var(--color-danger);
 }
 
@@ -270,7 +278,7 @@ header {
 
 .categories_container {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 100%;
     /* gap: 4rem; */
 }
 
@@ -467,7 +475,8 @@ footer {
 .footer_container>div h4 {
     margin-bottom: 1.2rem;
 }
-.footer_1 h1{
+
+.footer_1 h1 {
     font-size: 1.5rem;
 }
 
@@ -495,7 +504,7 @@ footer ul li a:hover {
 
 
 /*============================= MEDIA QUERIES (TABLET) SECTION =================================*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 
     .container {
         width: var(--container-width-md);
@@ -561,6 +570,7 @@ footer ul li a:hover {
     .nav_menu li:nth-child(4) {
         animation-delay: 600ms;
     }
+
     .nav_menu li:nth-child(5) {
         animation-delay: 800ms;
     }
@@ -592,7 +602,7 @@ footer ul li a:hover {
 
     /* ======= HEADER ======== */
     header {
-        height: 59vh;
+        height: 84vh;
         margin-bottom: 4rem;
     }
 
@@ -600,7 +610,8 @@ footer ul li a:hover {
         gap: 0;
         padding-bottom: 3rem;
     }
-    .header_left a{
+
+    .header_left a {
         margin-top: 1rem;
     }
 
@@ -626,6 +637,7 @@ footer ul li a:hover {
     .courses_container {
         grid-template-columns: 1fr 1fr;
     }
+
     .testimonial_body::before {
         left: 42.5%;
     }
@@ -643,12 +655,13 @@ footer ul li a:hover {
     .footer_container {
         grid-template-columns: 1fr 1fr;
     }
-    .footer_1 h1{
+
+    .footer_1 h1 {
         font-size: 1rem;
     }
-    
-   
-  
+
+
+
 }
 
 /*============================= MEDIA QUERIES (MOBILE) SECTION =================================*/
@@ -663,13 +676,16 @@ footer ul li a:hover {
     .nav_menu {
         right: 3%;
     }
-    nav{
+
+    nav {
         height: 4rem;
     }
-    .nav_container .logo{
+
+    .nav_container .logo {
         font-size: 1.5rem;
     }
-    .logo small{
+
+    .logo small {
         font-size: 1.25rem;
     }
 
@@ -687,7 +703,8 @@ footer ul li a:hover {
     .header_left p {
         margin-bottom: 1.3rem;
     }
-    .header_left h1{
+
+    .header_left h1 {
         margin-top: 3rem;
     }
 
@@ -715,6 +732,7 @@ footer ul li a:hover {
     .testimonial_body {
         padding: 1.2rem;
     }
+
     .testimonial_body::before {
         left: 44%;
     }
@@ -734,7 +752,7 @@ footer ul li a:hover {
         justify-content: center;
     }
 
-    
+
 }
 
 
@@ -822,15 +840,15 @@ footer ul li a:hover {
     justify-content: center;
     position: relative;
     height: 100%;
-    top: -10px;
+    top: +50px;
     font-family: 'Poppins', sans-serif !important;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 350px;
     line-height: 500px;
     text-align: center;
     letter-spacing: 0.08em;
-    color: #d2b9fbc2;
+    color: var(--color-white);
     opacity: 0.35;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px;
@@ -839,8 +857,9 @@ footer ul li a:hover {
 .textHeading {
     position: absolute;
     left: 18.13%;
-    right: 18.13%;
-    top: 25.68%;
+    margin: 0 auto;
+    right: 20%;
+    top: 40.68%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -854,13 +873,13 @@ footer ul li a:hover {
 
 .subHeading {
     position: absolute;
-    left: 25.07%;
-    right: 25.01%;
-    top: 67.8%;
+    left: .07%;
+    margin: 0 auto;
+    top: 100.8%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 29px;
     line-height: 43px;
     text-align: center;
     letter-spacing: 0.08em;
@@ -874,7 +893,7 @@ footer ul li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 90%;
+    top: 130%;
     left: 43%;
     background: #d2b9fb;
     padding: 7px 20px;
@@ -882,8 +901,8 @@ footer ul li a:hover {
     border: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 29px;
     text-align: center;
     letter-spacing: 0.08em;
@@ -923,17 +942,52 @@ footer ul li a:hover {
     }
 }
 
-/* Media Query for screens with a maximum width of 600px */
+/* Media Query for screens with a maximum width of 800px */
+/* Media Query for screens with a maximum width of 800px */
 @media (max-width: 800px) {
+    /* .yearText and .yearHeading */
+    .yearHeading {
+        top: 90px;
+        font-size: 220px;
+        line-height: 300px;
+    }
+
+    /* .textHeading */
+    .textHeading {
+        top: 65%;
+        width: 64%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    /* .subHeading */
+    .subHeading {
+        top: 121%;
+        left: 5%;
+        width: 92%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /* .btns */
+    .btns {
+        top: 169%;
+        left: 41%;
+        height: 40px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    /* Other adjustments for .mainload */
     .mainload {
         flex-direction: column;
         justify-content: space-around;
     }
 
     .mainload .loadtext {
-        font-size: clamp(3rem, 2.5vw, 4rem);
-        letter-spacing: 20px;
-        padding-left: 3.5%;
+        font-size: 3rem;
+        letter-spacing: 10px;
+        padding-left: 4%;
     }
 
     .mainload img {
@@ -946,6 +1000,7 @@ footer ul li a:hover {
         margin-top: 8px;
     }
 }
+
 
 /* Media Query for screens with a maximum width of 600px */
 @media (max-width: 600px) {
@@ -964,64 +1019,60 @@ footer ul li a:hover {
         justify-content: center;
         position: relative;
         height: 100%;
-        top: -130px;
+        top: -26px;
         font-style: normal;
         font-weight: 600;
-        font-size: 120px;
+        font-size: 139px;
         line-height: 500px;
         text-align: center;
         letter-spacing: 0.08em;
-        color: #d2b9fb;
-        opacity: 0.35;
+        /* color: var(--color-primary); */
+        opacity: 1;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 2px;
+        right: -3%;
     }
 
     /* .textHeading */
     .textHeading {
         position: absolute;
         left: 5%;
-        top: 20.68%;
-        width: 350px;
-        /* Adjust the width to fit the content */
+        top: 14.68%;
+        width: 392px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 28px;
         line-height: 30px;
         letter-spacing: 0.07em;
         color: #ffffff;
         text-shadow: 0px 0px 15px #150b25;
     }
-
     /* .subHeading */
     .subHeading {
         position: absolute;
-        top: 40.8%;
-        left: 4%;
-        width: 350px;
-        /* Adjust the width to fit the content */
+        top: 64.8%;
+        left: 5%;
+        width: 391px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 20px;
-        line-height: 20px;
+        line-height: 24px;
         text-align: center;
         letter-spacing: 0.08em;
         color: #ffffff;
         text-shadow: 0px 0px 15px #150b25;
     }
-
     /* .btns */
     .btns {
-        top: 56%;
-        left: 25%;
+        top: 96%;
+        left: 29%;
         height: 50px;
         background: #d2b9fb;
         padding: 7px 30px;
         border-radius: 6px;
     }
-
     /* Other adjustments for .mainload */
     .mainload {
         flex-direction: column;
@@ -1044,5 +1095,23 @@ footer ul li a:hover {
         margin-top: 14px;
     }
 }
-
-
+@media (max-width: 390px) {
+    .textHeading{
+        width: 345px;
+        top: 8.68%;
+    }
+    .yearHeading {
+        font-size: 131px;
+        top: -61px;
+    }
+    .subHeading {
+        left: 2%;
+        width: 367px;
+        top: 56.8%;
+        line-height: 26px;
+    }
+    .btns {
+        left: 26%;
+        top: 96%;
+    }
+}
