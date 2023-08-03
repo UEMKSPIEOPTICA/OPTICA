@@ -6,10 +6,9 @@ function hideLoader() {
     loader.style.display = 'none';
 }
 
-window.addEventListener('load', function () {
     // Set a timeout of 2 seconds (2000 milliseconds) before hiding the loader
     setTimeout(hideLoader, 2000);
-});
+
 
 
 
