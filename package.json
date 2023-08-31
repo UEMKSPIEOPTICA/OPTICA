@@ -1,7 +1,11 @@
 {
-  "name": "my-package",
+  "name": "SPIE OPTICA UEM KOLKATA",
+  "version": "1.0.0",
+  "description": "Website for Chapter ",
+  "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
-  }
+    "start": "node index.js"
+  },
+  "author": "SPIE OPTICA STUDENT CHAPTER UEMK",
+  "license": "MIT"
 }
